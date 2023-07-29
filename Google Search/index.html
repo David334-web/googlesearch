@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container1">
+        <div class="container2">
+            <h1>Web Search<img class="weblogo" src="./src/weblogo.png"></h1>
+
+            <form>
+                <input type="text" placeholder="Faire une recherche" class="input1" value="">
+                <img src="./src/search.webp" class="searchlogo"><br>
+            </form>
+            <div class="Boutton">
+                <button class="Button" type="submit">Go!➡</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        let input1 = document.querySelector('.input1');
+        let Button = document.querySelector('.Button');
+
+        Button.onclick = function () {
+            let url = 'https://www.google.com/search?q=' = input1.value;
+            window.open(url, '_self');
+        };
+    </script>
+</body>
+
+</html>

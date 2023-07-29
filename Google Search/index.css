@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.weblogo{
+    width: 60px;
+}
+
+.container1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #FDD819, #E80505 );
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.container2{
+    width: 500px;
+    height: 250px;
+    background-color: #ffffff27;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+input{
+    width: 70%;
+    height: 32px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.searchlogo{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-right: 360px;
+    
+}
+
+.micrologo{
+    width: 30px;
+    height: 30px;
+}
+
+.Boutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button{
+    width: 90px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #6ae639;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 10px 10px 10px -1px #8d8888
+}
